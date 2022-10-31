@@ -1,0 +1,30 @@
+**Arrays:-
+
+  Array is continous memory.Arrays are list of items in a similar pattern.It means array has similar(linear) data types.
+  These have numbers, strings,objects..etc
+ 
+  eg.,super markets
+      crackers
+      clothes
+Array  can declared has []
+
+var supermarket = ["sugar","oil","salt"];
+    console.log(supermarket[1])
+    Ouput:-oil
+
+Numbering is given from 0 in programming languages.
+
+eg.,["sugar","oil","salt"];
+       0        1    2
+
+Array length is 3 , Array size is 2.Array has indexes.Indexes are the identifiers of the element.
+
+push--we add the items inside array 
+pop--We can delete the items inside array
+
+Inbound & Outbound:-
+
+Inbound->Indise Array range . Will fetch the  records within the length and size
+outbound->Outside of array limits.Undefined
+
+once Type of array is defined we cannot assign another datatype to the array.
