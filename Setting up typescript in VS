@@ -1,0 +1,8 @@
+**setting up typescript in visual studio code:--
+
+  1.Open cmd and install the typescript-->npm install-g typescript
+  2.check the version-->tsc--version
+  3.open vscode-->select a folder and create a file with .ts extension
+  4.Create a tsconfig file ? tsc cmd --init
+  5.convert a typescript file to javascript ? tsc {file_name}--> Creates a javascript file with the same name as {file_name}
+  6.Run the generated JS Code using ---> node learn_tsc.js  
