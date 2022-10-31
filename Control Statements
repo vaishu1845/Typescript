@@ -1,0 +1,83 @@
+**Control statements: 
+
+Changes the flow of execution of statements
+
+1.conditional statements,
+2.loops,
+3.continue,break
+
+1.conditional statements:-
+
+In control statements we have lots of conditional statements like
+
+a.if,else if, and----decision making 
+
+  eg.,amazon, flipkart
+
+  if(price=51,000 and color=blue and memory=128gb and deliveryin = 2 days)
+
+  order from amazon
+
+  else if (price=49,000 and color=blue and memory=128gb and deliveryin = 7 days)
+
+  order from flipkart
+
+  else
+
+  order from chroma
+
+b.switch cases---(this or that) 
+
+  directly placing the order
+  
+  case 1: price=51,000 and color=blue and memory=128gb and deliveryin = 2 days
+
+  order from amazon 
+
+  case 2: price=49,000 and color=blue and memory=128gb and deliveryin = 7 days 
+
+  order from flipkart 
+
+  default: 
+  
+  order from chroma
+
+2.Loops:-
+
+ doing the same activity so many times 
+
+  a.for loop
+
+  b.while loop 
+
+  c.do while
+
+a.for loop:-
+
+  eg.,Sum of n natural numbers using for loop 
+
+   var sum = 0;
+   const n = 100
+   for(var i=1;i<=n;i++){
+   sum = sum + i
+   }
+   console.log(sum); 
+
+  ouput: 5050 
+  
+  for loop--
+
+ for(initial value;termination_condition;steps/incrementals/step by which value should incrementation.
+
+ while--
+
+ initial condition-steps/incrementals/step by which value should incrementation.
+
+ eg.,if(i<=100) then while is stoped.
+
+ do while--
+ first do{} then while(condition) is executed.
+
+>Javascript and typescript programmes are executed in synchronous way.i.e.,step by step.
+
+        
