@@ -1,0 +1,131 @@
+**Functions:-
+
+for doing the repetative tasks functions are used
+
+eg:,chat(true/false){
+
+    if(true)--run html
+
+    else--donot run html
+
+    }
+    
+    In the above,true/false are arguments.
+
+To run the functions we have to give some parameters/argumnets.
+
+ eg.,human (it is function)
+      |
+    first name,last name,age etc.,(these are parameters/arguments)
+
+write a function for sum of two numbers..?
+
+function_name(parameter1 + parameter2){
+
+logic(parameter1+parameter2);
+
+}
+
+In functions we have
+
+arrow function:- ()=>
+
+we use arrow function becoz these are "short hand syntax".
+                                              |
+                                     major advantages of ts.
+                                              |
+                                    no need to write full function just we can give ()=>
+function types:-
+
+a.void
+
+b.return
+
+a.void--non-retunable.it does not return any value,its just execute the logic.
+
+b.return--it executes the logic and returns the value.
+
+         ================================================================================================================
+
+21/10/22:
+
+functions cont..
+
+syntax: var/let/const/readonly.
+
+1.var name.of function:
+
+      function(passing arguments){
+
+     }
+
+2.short hand syntax
+
+  var func_name=()=>{
+
+  ..condition/logic
+
+ } 
+
+Typescript supports short hand syntax.
+
+function has parameters which are also called function signatures.
+
+a.parameterless function
+
+b.parameter function
+
+a.parameterless function: It means function without arguments.
+
+    eg., var order=()=> {
+
+         //conditions.logics.iterations.
+
+         console.log("Hi vaishnavi order place,thank you!")
+
+         } 
+     
+         order();  --------function must be called to get output.
+
+         output:-"Hi vaishnavi order placed,thank you!"
+
+b.Parameter function: It means function with arguments.
+
+    eg.,var getItems=(id:number,name:string){           
+
+        console.log("Hey" +name+ "welcome back,please place your orders and your userId is "+id);
+
+        } 
+
+        getItems(321,"Vaishnavi");     }------Only 2 arguments called becoz we have given only 2 arguments in function.
+        getItems(123,"venkat");        }
+   
+        output:--Hey Vaishnavi welcomeback, please place your orders and your userId is 321
+                 Hey venkat welcomeback, please place your orders and your userId is 123
+       
+        code is reusable in parameter function
+
+
+      --Parameter can be string/number.ie.,(id:number|string, name:string).   
+
+Booking tickets with return function:-
+
+         var bookTickets = (cinema:string): string)=>{
+
+             var ticketnumber="1234"+cinema
+ 
+             return ticketnumber; 
+
+         var userVaishnavi = bookTickets("Vikram");
+         var userVenkat = bookTickets("Major");  
+
+         Console.log("Hello, vaishnavi...Your booked ticketInformation",userVaishnavi);
+         Console.log("Hello, vaishnavi...Your booked ticketInformation",userVenkat);    
+
+         ouput;-Hello,Vaishnavi...Your booked ticketInformation,1234Vikram
+                Hello,Venkat...Your booked ticketInformation,1234Major 
+
+
+         Functions are using in different ways by passing different parameters.
+
+         Functions are also called methods.
