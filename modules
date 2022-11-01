@@ -1,0 +1,24 @@
+28-10-2022:- 
+
+Modules:- 
+
+It is a chunk of code, that will be used to maintain modularity of the component/class. 
+
+Modules are implemented by:- 
+
+Export and Import. 
+
+a) Export:- Any declaration (such as a variable, function,class,interface etc) can be exported by adding the export keyword.
+
+   Export statements are handy when exports need to be renamed for consumers.
+
+  e.g.,Stringvalidator.ts--
+
+  export interface StringValidator {
+  isAcceptable(s: string): boolean;
+  }
+
+b) Import:-mporting is just about as easy as exporting from a module. Importing an exported declaration is done through using one of the import forms.
+
+-> ./ - 1 file back 
+-> ../ - 2 files back. 
