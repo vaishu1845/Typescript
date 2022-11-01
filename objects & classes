@@ -1,0 +1,28 @@
+**objects:-
+
+ nothing but self contained components consists of properties.
+
+ eg.,cup--its has own shape,colour,weight,height,design.
+ 
+ **Classes:--
+
+ Nothing but bluprint of objects.Object has its own properties.classes defines the behaviour of objects.
+
+ syntax:-properties,constructors,methods
+
+ eg.,class customers{ 
+           age:string;
+           name:string;
+           product_used_by_customer:string;
+
+           constructor()
+           {
+            this.age = "20";
+            this.name = "Vaishnavi";
+            this.product_used_by_customer = "oneplus";
+           }
+
+           printCustomerDetails(a:string,b:string,c:string){
+           console.log("These are the details that you have requested for",this.age,this.name,this.product_used_by_customer)
+           }
+           }
