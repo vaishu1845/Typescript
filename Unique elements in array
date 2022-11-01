@@ -1,0 +1,7 @@
+var myArray = [5, 5, 5, 6, 6, 6, 8, 9, 1];
+
+let unique = [...new Set(myArray)];    (...indicates that copying the elements from array)
+
+console.log(unique);
+
+output:- [5 6 8 9 1] 
