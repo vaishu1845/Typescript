@@ -1,0 +1,67 @@
+>> Stack and heap:--
+
+  (a)Stack--
+
+  1.It is a linear data structure.
+
+  2.Memory is allocated in continuous block.
+
+  3.The memory for a stack is allocated and deallocated automatically using the instructions of the compiler.
+
+  4.It costs less to build and maintain a stack.
+
+  5.It is easy to implement.
+
+  6.It is fixed in size; hence it is not flexible.
+
+  7.Its only disadvantage is the shortage of memory, since it is fixed in size.
+
+  8.If all the blocks are not occupied, memory gets wasted too.
+
+  9.It takes less time to access the elements of a stack.
+
+  10.It has an excellent locality of reference. 
+
+  (b)Heap-- 
+
+  1.It is a hierarchical data structure.
+
+  2.Memory is allocated in a random block.
+
+  3.The memory is allocated and deallocated manually by the programmer.
+
+  4.It is costly to build and maintain a heap.
+
+  5.It is difficult to implement a heap structure.
+
+  6.It takes more time to access elements of a heap.
+
+  7.The disadvantage of heap is fragmentation of memory.
+
+  8.Resizing is possible in heap.
+
+  9.Hence, memory is not wasted.
+
+  10.It has adequate locality of reference. 
+
+            =============================================================
+
+ >>Scopes:- 
+
+Scopes define that we are able to access the variable or not.
+
+ Global and local 
+
+ a)Global:- 
+   
+   -Global variables are declared outside the programming constructs.
+  
+   -These variables can be accessed from any where within code.
+
+   -These variables are also called fields.That are declared within class but outside the methods.
+
+  b)Local:- 
+
+   -These variables are accessible only within the construct where they are declared.
+
+   -Declared within the block like methods,loops etc.,
