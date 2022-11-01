@@ -1,0 +1,22 @@
+Differnece b/w let,var and const..?? 
+
+These are the keywords to declare variables.
+
+Var:- 
+
+Can be used before its declared, its is function scope variables (availiable outside scope).
+
+Values can be changed. 
+
+let:- 
+
+Local scoped variables.Not availiable outside the scope.
+
+values can be changed. 
+
+const:- 
+
+values cannot be changed.
+
+If we give 'obj' then we can manipulate the value.
+ 
